@@ -16,6 +16,7 @@ input[type="checkbox"] {
 
 input[type="checkbox"]::after {
   content: "\2713";
+  font-size: 20px;
   font-weight: 100;
   display: none;
 }
@@ -33,7 +34,7 @@ input[type="checkbox"]:active::after {
 }
 
 input[type="checkbox"]:active {
-  box-shadow: rgb(205, 206, 208) 0px 0px 0px 2px, rgba(205, 206, 208) 0px 4px 6px -1px,
+  box-shadow: rgba(43, 107, 235, 0.31) 0px 0px 0px 2px, rgba(43, 107, 235, 0.31) 0px 4px 6px -1px,
     rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
   background-color: #5087f8;
 }
